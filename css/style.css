@@ -423,6 +423,7 @@ input#mc-embedded-subscribe {
 
 #faq {
 	color: #24142a;
+	z-index: 1;
 	background-color: #edd9f2;
 }
 #faq a{
