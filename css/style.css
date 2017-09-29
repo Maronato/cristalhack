@@ -143,7 +143,7 @@ i {
 }
 
 .logo {
-	height: 150px;
+	height: 200px;
 	display: block;
 	margin: 5px auto;
 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -162,7 +162,7 @@ i {
 }
 .logotext {
 display: block;
-	height: 65px;
+	height: 100px;
 	margin: 5px auto;
 }
 
@@ -175,7 +175,7 @@ display: block;
 }
 
 .header-button-wrapper button, input[type="submit"] {
-	font: 0.8em 'Source Sans Pro', sans-serif;
+	font: 1em 'Source Sans Pro', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	padding: 10px 15px;
