@@ -191,7 +191,7 @@ display: block;
 	color: #87bcec;
 }
 /* section padding */
-#about, #schedule, #faq, #social_media, #sponsors, #tickets {
+#about, #schedule, #faq, #social_media, #sponsors, #tickets, #prizes {
 	padding: 5em 4em;
 }
 #about {
@@ -219,6 +219,32 @@ display: block;
 	height: 450px;
 	display: block;
 }
+
+#prizes {
+	background-color: #070B27;
+	color: #ffffff;
+}
+
+#about .content {
+	display: flex;
+}
+
+#prizes .content p {
+	margin-bottom: 2em;
+}
+
+#prizes .details, #prizes .rules{
+	flex: 1 1;
+}
+
+#prizes .header {
+	text-align: center;
+}
+
+#prizes a {
+	color: gray;
+}
+
 #dataset {
 	background-color: #835f8b;
 	color: #d0b9d8;
@@ -281,7 +307,7 @@ display: block;
 	background-color: #3b283f;
 	color: #ffffff;
 }
-#schedule h2, #tickets h2{
+#schedule h2, #tickets, #prizes h2{
 	text-align: center;
 	margin-bottom: 0.5em;
 }
@@ -650,7 +676,7 @@ z-index: -99;
 	}
 }
 @media screen and (min-width:751px){
-	#about .content .details {
+	#about .content .details, #prizes .content .details{
 		float: left;
 		width: 50%;
 	}
@@ -677,13 +703,17 @@ z-index: -99;
 	#sponsors .partners img {
 		max-height: 125px;
 	}
-	#about, #faq, #social_media, #sponsors, #schedule {
+	#about, #faq, #social_media, #sponsors, #schedule, #prizes {
 		padding: 5em 1.5em;
 	}
 	#about .side-image {
 		width: 100%;
 		display: none;
 		/* cat begone */
+	}
+	#prizes .side-image {
+		width: 100%;
+		display: none;
 	}
 }
 
